@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "outDir": "./dist/tsc",
+    "strict": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  },
+  "include": [
+    "./",
+    "!./dist"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
